@@ -19,6 +19,7 @@ DROP TABLE IF EXISTS ventas;
 DROP TABLE IF EXISTS productos;
 DROP TABLE IF EXISTS clientes;
 DROP TABLE IF EXISTS categorias;
+GO
 
 
 -- === SECCIÓN 2: CREATE ===
@@ -56,6 +57,7 @@ CREATE TABLE ventas (
     precio_unitario  DECIMAL(10,2) NOT NULL,
     fecha_venta      DATE NOT NULL
 );
+GO
 
 
 -- === SECCIÓN 3: INSERT ===
@@ -93,6 +95,7 @@ INSERT INTO ventas (id_venta, id_cliente, id_producto, cantidad, precio_unitario
   ( 8, 3, 2, 8,   28.00, '2024-03-13'),
   ( 9, 4, 4, 1,  120.00, '2024-03-14'),
   (10, 5, 3, 2,  450.00, '2024-03-15');
+GO
 
 
 -- === SECCIÓN 4: VALIDACIÓN ===
@@ -100,3 +103,4 @@ SELECT * FROM categorias;   -- esperado: 4 filas
 SELECT * FROM clientes;     -- esperado: 5 filas
 SELECT * FROM productos;    -- esperado: 6 filas
 SELECT * FROM ventas;       -- esperado: 10 filas
+GO

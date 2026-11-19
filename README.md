@@ -4,7 +4,7 @@ Script SQL de ingeniería de datos para TechStore, una cadena de tiendas de tecn
 
 ## Contenido
 
-`ventas_tech_db.sql` crea la base `Ventas_Tech_DB` con un modelo relacional en 3NF:
+`modulo3/ventas_tech_db.sql` crea la base `Ventas_Tech_DB` con un modelo relacional en 3NF:
 
 ```
 categorias (1) ──── (N) productos (1) ──── (N) ventas (N) ──── (1) clientes

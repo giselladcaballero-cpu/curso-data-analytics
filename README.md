@@ -10,7 +10,7 @@ Repositorio de prácticas y pre-entregas del curso de Análisis de Datos (SQL Se
 |---|---|
 | `modulo1/` | Brief del proyecto RetailPro (pre-entrega 1) y ejercicio CoffeeInsight |
 | `modulo2/` | Modelo de datos RetailPro (pre-entrega 2), normalización del videoclub RetroVibes y script `modulo2_unidad1_diseno.sql` |
-| `modulo3/` | SQL Server: práctica DDL/DML BodegaTech (`ddl_dml_bodega.sql`) y checkpoint Ventas_Tech_DB (`ventas_tech_db.sql`) |
+| `modulo3/` | SQL Server: práctica DDL/DML BodegaTech (`ddl_dml_bodega.sql`) y checkpoint Ventas_Tech_DB (`ventas_tech_db.sql`) — ver [`modulo3/README.md`](modulo3/README.md) para instrucciones de ejecución y checklist de la consigna con evidencia |
 
 ## Proyecto integrador: RetailPro
 
